@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h2>SocialApp</h2>
+  <div id="loggedUser"></div>
+</header>
+
+<div class="container">
+
+  <!-- CREATE POST -->
+  <div class="create-post">
+    <textarea id="postContent" rows="3" placeholder="What's on your mind?"></textarea>
+    <button id="postBtn" onclick="createPost()">Post</button>
+  </div>
+
+  <!-- POSTS FEED -->
+  <div id="posts"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
